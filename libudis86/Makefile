@@ -12,7 +12,7 @@ all64: decode.o syn-att.o syn-intel.o syn.o itab.o udis86.o
 	$(AR) -rsc libudis86-64.a $^
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c $^
+	$(CC) $(CFLAGS) -O2 -c $^
 
 install: all
 	mkdir -p /usr/local/include/libudis86

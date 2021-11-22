@@ -1,8 +1,8 @@
 
 ifeq ($(MAKECMDGOALS),all64)
-	CFLAGS=-fPIC -DHAVE_STRING_H -g
+	CFLAGS=-fno-stack-protector -fPIC -DHAVE_STRING_H -g
 else
-	CFLAGS=-m32 -fPIC -DHAVE_STRING_H -g
+	CFLAGS=-fno-stack-protector -m32 -fPIC -DHAVE_STRING_H -g
 endif
 
 all: decode.o syn-att.o syn-intel.o syn.o itab.o udis86.o

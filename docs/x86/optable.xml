@@ -1299,6 +1299,22 @@
     </instruction>
 
     <instruction>
+        <mnemonic>endbr32</mnemonic>
+        <def>
+            <opc>/sse=f3 0f 1e fb</opc>
+            <cpuid>cet</cpuid>
+        </def>
+    </instruction>
+
+    <instruction>
+        <mnemonic>endbr64</mnemonic>
+        <def>
+            <opc>/sse=f3 0f 1e fa</opc>
+            <cpuid>cet</cpuid>
+        </def>
+    </instruction>
+
+    <instruction>
         <mnemonic>enter</mnemonic>
         <def>
             <opc>c8</opc>
@@ -5354,11 +5370,6 @@
         <def>
             <pfx>aso rexr rexx rexb</pfx>
             <opc>0f 1d</opc>
-            <opr>M</opr>
-        </def>
-        <def>
-            <pfx>aso rexr rexx rexb</pfx>
-            <opc>0f 1e</opc>
             <opr>M</opr>
         </def>
         <def>

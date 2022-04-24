@@ -10086,7 +10086,7 @@
         <def>
             <pfx>aso rexr rexx rexb</pfx>
             <opc>/vex=66_0f 72 /reg=6 /vexl=0</opc>
-            <opr>H V W</opr>
+            <opr>H W Ib</opr>
             <cpuid>avx</cpuid>
         </def>
     </instruction>
@@ -10102,7 +10102,7 @@
         <def>
             <pfx>aso rexr rexx rexb</pfx>
             <opc>/vex=66_0f 73 /reg=6 /vexl=0</opc>
-            <opr>H V W</opr>
+            <opr>H W Ib</opr>
             <cpuid>avx</cpuid>
         </def>
     </instruction>

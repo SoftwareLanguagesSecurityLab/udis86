@@ -10070,7 +10070,7 @@
         <def>
             <pfx>aso rexr rexx rexb</pfx>
             <opc>/vex=66_0f 71 /reg=6 /vexl=0</opc>
-            <opr>H V W</opr>
+            <opr>H W Ib</opr>
             <cpuid>avx</cpuid>
         </def>
     </instruction>

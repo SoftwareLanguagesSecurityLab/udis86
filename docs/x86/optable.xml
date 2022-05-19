@@ -9643,7 +9643,7 @@
             <pfx>aso rexr rexw rexx rexb</pfx>
             <opc>/sse=66 0f 38 25</opc>
             <opr>V MqU</opr>
-            <cpuid>sse4.1</cpuid>
+            <cpuid>sse4.1 avx</cpuid>
         </def>
     </instruction>
 
